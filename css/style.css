@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     background-color: white;
 }
@@ -16,8 +16,10 @@ header .container {
     align-items: center;
     flex-direction: row;
     background: #FFFFFF
+}
+
+header .container {
     box-shadow: 0 3px 6px #00000029;
-    opacity: 1;
 }
 
 
@@ -55,9 +57,60 @@ header .container {
     text-decoration: none;
     text-align: left;
     font-weight: 300;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 32px;
     letter-spacing: 0;
     color: #08A6E4;
     opacity: 1;
+}
+
+
+/* BANER */
+
+.banner {
+    margin-top: 100px;
+    height: 594px;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bannerimg {
+    width: 100%;
+    height: auto;
+}
+
+.banner-title {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 49px;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.banner-text {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.CTA {
+    margin-top: 37px;
+    text-decoration: none;
+    padding: 22px 157px;
+    color: white;
+    background-color: #08A6E4;
+    border-radius: 40px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+
 }
