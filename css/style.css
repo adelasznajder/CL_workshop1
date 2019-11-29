@@ -1,7 +1,7 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: white;
-}
+     font-family: 'Open Sans', sans-serif;
+     background-color: white;
+ }
 
 header {
     display: flex;
@@ -25,7 +25,6 @@ header .container {
 
 .page-nav-list {
     display: flex;
-    margin-right: 136px;
 }
 
 .page-nav-list li {
@@ -68,7 +67,7 @@ header .container {
 /* BANER */
 
 .banner {
-    margin-top: 100px;
+    margin-top: 5%;
     height: 594px;
     display: flex;
     justify-content: flex-start;
@@ -102,7 +101,7 @@ header .container {
 .CTA {
     margin-top: 37px;
     text-decoration: none;
-    padding: 22px 157px;
+    padding: 2% 10%;
     color: white;
     background-color: #08A6E4;
     border-radius: 40px;
@@ -113,3 +112,104 @@ header .container {
     letter-spacing: 0;
 
 }
+
+/* MAIN */
+/* STATS */
+
+.container2 {
+    width: 1325px;
+    margin: auto;
+}
+
+.stats-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.stats-box {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    padding: 1% 10%;
+    position: relative;
+}
+
+.stats-box img {
+    z-index: 2;
+}
+
+.stats-box:nth-of-type(1)::before {
+    content: "";
+    display: block;
+    background: #FB3B64;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    z-index: 0;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+}
+
+.stats-box:nth-of-type(2)::before {
+    content: "";
+    display: block;
+    background: #08A6E4;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    z-index: 0;
+    position: absolute;
+    left: 37%;
+    top: 5%;
+}
+
+.stats-box:nth-of-type(3)::before {
+    content: "";
+    display: block;
+    background: #55DFB4;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    z-index: 0;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+}
+
+
+.stats-title-small {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: #000000;
+    opacity: 1;
+    margin-top:20px;
+}
+
+.stats-text {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 19px;
+    letter-spacing: 0;
+    color: #A5A5A5;
+    opacity: 1;
+    margin-top: 10px;
+}
+
