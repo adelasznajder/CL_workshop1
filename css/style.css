@@ -70,18 +70,17 @@ header .container {
 .banner {
     margin-top: 100px;
     height: 594px;
-    background-size: cover;
-    background-position: bottom;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    background-image: url("../3_Warsztaty/assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+
 }
 
-.bannerimg {
-    width: 100%;
-    height: auto;
-}
 
 .banner-title {
     text-align: center;
