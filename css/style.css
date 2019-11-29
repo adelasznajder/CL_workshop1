@@ -28,6 +28,14 @@ header .container {
 
 .page-nav-list li {
     margin-left: 90px;
+    text-align: center;
+    transition: 0.2s;
+    padding: 2px;
+}
+
+.page-nav-list li:hover {
+    border: none;
+    border-bottom: 4px solid #08A6E4;
 }
 
 .page-nav-list a {
