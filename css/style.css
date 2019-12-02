@@ -241,8 +241,18 @@ header .container {
     border: 1px solid #E8E9ED;
     border-radius: 5px;
     margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
 
 }
+
+.article_img {
+    width: 70%;
+    height: 50%;
+}
+
+
 
 .article h2 {
     text-align: left;
@@ -263,10 +273,7 @@ header .container {
     width: 45%;
 }
 
-.article img{
-    float: right;
-    width: 30%;
-}
+
 
 
 /* FORM */
